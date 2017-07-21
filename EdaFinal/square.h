@@ -8,12 +8,13 @@ class square
 {
 
 public:
-
-	void setSquarePos(squarePos); //Asigno la posicion del Square
-	squarePos GetSquarePos();	//Devuelve la posicion del Square
-	bool canMoveLeft(); //Devuelve si se puede mover a las Square correspondientes
+        square();
+        ~square();
+        void setSquarePos(squarePos); //Asigno la posicion del Square
+        squarePos GetSquarePos();	//Devuelve la posicion del Square
+        bool canMoveLeft(); //Devuelve si se puede mover a las Square correspondientes
 	bool canMoveRight();
-	bool canMoveUp();
+        bool canMoveUp();
 	bool canMoveDown();
 	squarePointer getLeftSquare();
 	squarePointer getRightSquare();

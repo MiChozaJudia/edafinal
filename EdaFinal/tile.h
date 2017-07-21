@@ -1,12 +1,8 @@
-
 #include <cstdlib>
 
-
 class tile
-
 {
 public:
-
 	tile();
 	~tile();
 	bool isvisible();	//Devuelve 1 si la tile es visible, 0 si no
@@ -19,4 +15,4 @@ private:
 	bool downStairs;
 	char number; //cero si es safe
 
-}
+};

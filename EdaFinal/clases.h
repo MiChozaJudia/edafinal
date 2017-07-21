@@ -1,3 +1,4 @@
+/*
 //tablero
 #define POSICIONTILE
 #define DIRECCION
@@ -107,7 +108,7 @@ public:
 	/*bool moveLeft();
 	bool moveRight();
 	bool moveUp();
-	bool moveDown();*/
+	bool moveDown();
 	punteroTile returnTile(posicionTile); //devuelve un puntero(?) a la tile
 
 private:
@@ -150,3 +151,5 @@ private:
 
 
 };
+
+*/
